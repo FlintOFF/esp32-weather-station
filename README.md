@@ -1,5 +1,6 @@
 # esp32-weather-station
-ESP32 Weather station with I2C 1602 LCD display
+This weather station based on MCU ESP32 and use LCD display 1602 through I2C adapter PCF8574.
+The code writed on microPython
 
 # install
 * git clone git@github.com:FlintOFF/esp32-weather-station.git
