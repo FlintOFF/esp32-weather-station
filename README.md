@@ -20,7 +20,8 @@ The code developed on [microPython](http://micropython.org/).
 * connect LCD display to ESP32. 
   * SDA to pin 18
   * SCL to pin 19
-  * VCC & GND to external power supply
+  * VCC to V5 
+  * GND to GND
 * done
 
 If you do everything right you will see next text on display
