@@ -1,0 +1,10 @@
+{
+  "WEATHER": {
+    "CITY": "",
+    "API_KEY": ""
+  },
+  "WIFI": {
+    "SSID": "",
+    "PASSWORD": ""
+  }
+}
