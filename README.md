@@ -3,6 +3,7 @@ This weather station based on MCU ESP32 and use LCD display 1602 through I2C ada
 The code writed on microPython
 
 # install
+* install microPython
 * git clone git@github.com:FlintOFF/esp32-weather-station.git
 * cp example_config.json config.json
 * nano config.json
@@ -14,7 +15,7 @@ The code writed on microPython
   * save end exit
 * connect to USB
 * rshell --buffer-size=30 -p /dev/ttyUSB0
-* cp -r ./ /pyboard
+* cp -r ./lib /pyboard && cp ./config.json /pyboard && cp ./main.py /pyboard && cp ./weather.py /pyboard
 * unplug
 * connect LCD display to ESP32. 
   * SDA to pin 18
