@@ -1,6 +1,6 @@
 # esp32-weather-station
 This weather station based on MCU ESP32 and use LCD display 1602 through I2C adapter PCF8574.
-The code writed on microPython
+The code developed on microPython.
 
 # install
 * install microPython
@@ -25,3 +25,7 @@ The code writed on microPython
 
 If you do everything right you will see next text on display
 ![esp32+lcd](assets/images/esp_and_lcd.jpg)
+
+# libs
+* [python_lcd](https://github.com/dhylands/python_lcd)
+* [urequests](https://github.com/micropython/micropython-lib/blob/master/urequests/urequests.py)
