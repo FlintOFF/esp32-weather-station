@@ -8,7 +8,7 @@ The code writed on microPython
 * nano config.json
   * Create acocunt on https://www.apixu.com/ and copy API KEY
   * Write API KEY to "API_KEY"
-  * Write your city/country to "CITY" (ex. "Cherkasy,UA")
+  * Write your city/country to "CITY" (example "Cherkasy,UA")
   * Fill field "SSID"
   * Fill field "PASSWORD"
   * save end exit
@@ -21,3 +21,6 @@ The code writed on microPython
   * SCL to pin 19
   * VCC & GND to external power supply
 * done
+
+If you do everything right you will see next text on display
+![esp32+lcd](assets/images/esp_and_lcd.jpg)
