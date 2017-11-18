@@ -28,4 +28,3 @@ If you do everything right you will see next text on display
 
 # libs
 * [python_lcd](https://github.com/dhylands/python_lcd)
-* [urequests](https://github.com/micropython/micropython-lib/blob/master/urequests/urequests.py)

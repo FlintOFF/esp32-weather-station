@@ -1,5 +1,6 @@
 import json
 import network
+import urequests
 from machine import I2C, Pin
 from time import sleep_ms
 
@@ -7,7 +8,6 @@ import sys
 sys.path.append('/pyboard/lib')
 
 from esp8266_i2c_lcd import I2cLcd
-import urequests
 
 f = open('config.json', 'r')
 config = json.loads(f.read())
